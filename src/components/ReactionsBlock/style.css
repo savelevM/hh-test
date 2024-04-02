@@ -1,0 +1,32 @@
+.controllers-container {
+  padding-top: 8px;
+  display: flex;
+  width: 150px;
+  height: 32px;
+  gap: 10%;
+}
+
+.controllers-button {
+  width: 45%;
+  gap: 8px;
+  display: flex;
+  align-items: center;
+  font-weight: 500;
+}
+
+.controllers-button > p {
+  font-size: 18px;
+}
+.controllers-button > button {
+  font-size: 24px;
+  color: rgba(58, 53, 65, 0.5);
+  transition: all 0.3s ease-in-out;
+}
+
+.controllers-button.like > button:hover {
+  transform: scale(1.15);
+}
+.controllers-button.dislike > button:hover {
+  color: #eb5757;
+  transform: scale(1.15);
+}

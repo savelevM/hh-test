@@ -1,0 +1,25 @@
+.post-header {
+  margin-bottom: 32px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.post-back-link {
+  display: flex;
+  gap: 6px;
+  align-items: center;
+  color: #0a0a0a;
+  font-size: 24px;
+}
+
+.post-body {
+  margin: 0 auto;
+  max-width: 848px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 48px;
+}
+
+.post-body > p {
+  font-size: 18px;
+}

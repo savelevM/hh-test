@@ -1,0 +1,36 @@
+.post-card {
+  overflow: hidden;
+  border-radius: 12px;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.04);
+}
+
+.post-img {
+  width: 100%;
+  height: auto;
+}
+.post-desc {
+  padding: 16px;
+}
+
+.desc-header {
+  margin-bottom: 32px;
+  display: flex;
+  align-items: top;
+  justify-content: space-between;
+  gap: 12px;
+}
+
+.desc-footer {
+  margin-top: 32px;
+  display: flex;
+  align-items: center;
+}
+
+.desc-more-btn {
+  padding: 12px 24px;
+  border: 1px solid #0a0a0a;
+  border-radius: 8rem;
+  color: inherit;
+  cursor: pointer;
+  text-align: right;
+}

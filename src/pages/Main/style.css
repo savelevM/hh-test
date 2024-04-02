@@ -1,0 +1,15 @@
+.posts-list {
+  display: flex;
+  column-gap: 24px;
+}
+
+.posts-column {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  row-gap: 24px;
+}
+
+.main-post {
+  margin-bottom: 24px;
+}
